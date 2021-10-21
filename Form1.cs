@@ -44,7 +44,7 @@ namespace Палиндром
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
-            label1.Text = "Тут будет ответ";
+            label1.Text = "Тут будет ответ - ";
         }
 
         private void label1_Click(object sender, EventArgs e)
