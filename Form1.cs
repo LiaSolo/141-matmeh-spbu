@@ -49,7 +49,7 @@ namespace Палиндром
 
         private void label1_Click(object sender, EventArgs e)
         {
-            //НЕНУЖНЫЙ ЛЕЙБЛ ЗАЧЕМ НАЖАЛ БЛИН
+            //НЕНУЖНЫЙ ЛЕЙБЛ ЗАЧЕМ НАЖАЛ БЛИН CUM CUMCUMUCMUMCUM
         }
     }
 }
