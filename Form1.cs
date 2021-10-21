@@ -46,5 +46,10 @@ namespace Палиндром
             textBox1.Text = "";
             label1.Text = "Тут будет ответ";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //НЕНУЖНЫЙ ЛЕЙБЛ ЗАЧЕМ НАЖАЛ БЛИН
+        }
     }
 }
