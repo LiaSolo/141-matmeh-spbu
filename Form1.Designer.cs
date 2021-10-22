@@ -1,7 +1,7 @@
 ﻿
 namespace Палиндром
 {
-    partial class Form1
+    partial class PalindromForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -29,10 +29,15 @@ namespace Палиндром
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PalindromForm));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.PictureReptile = new System.Windows.Forms.PictureBox();
+            this.pictureCat = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureReptile)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCat)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -46,7 +51,7 @@ namespace Палиндром
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Thistle;
+            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(113, 152);
             this.button1.Name = "button1";
@@ -58,7 +63,7 @@ namespace Палиндром
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.LightCoral;
+            this.label1.BackColor = System.Drawing.Color.SkyBlue;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F);
             this.label1.Location = new System.Drawing.Point(46, 215);
             this.label1.Name = "label1";
@@ -70,7 +75,7 @@ namespace Палиндром
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.BackColor = System.Drawing.Color.Cyan;
             this.button2.Location = new System.Drawing.Point(113, 292);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 52);
@@ -79,17 +84,46 @@ namespace Палиндром
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // PictureReptile
+            // 
+            this.PictureReptile.BackColor = System.Drawing.Color.Transparent;
+            this.PictureReptile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PictureReptile.BackgroundImage")));
+            this.PictureReptile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PictureReptile.Location = new System.Drawing.Point(262, 356);
+            this.PictureReptile.Name = "PictureReptile";
+            this.PictureReptile.Size = new System.Drawing.Size(100, 94);
+            this.PictureReptile.TabIndex = 4;
+            this.PictureReptile.TabStop = false;
+            this.PictureReptile.Click += new System.EventHandler(this.PictureReptile_Click);
+            // 
+            // pictureCat
+            // 
+            this.pictureCat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureCat.BackgroundImage")));
+            this.pictureCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureCat.Location = new System.Drawing.Point(1, 341);
+            this.pictureCat.Name = "pictureCat";
+            this.pictureCat.Size = new System.Drawing.Size(116, 109);
+            this.pictureCat.TabIndex = 5;
+            this.pictureCat.TabStop = false;
+            this.pictureCat.Click += new System.EventHandler(this.pictureCat_Click);
+            // 
+            // PalindromForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(360, 450);
+            this.Controls.Add(this.pictureCat);
+            this.Controls.Add(this.PictureReptile);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "PalindromForm";
+            this.Text = "Палиндром от Лии";
+            ((System.ComponentModel.ISupportInitialize)(this.PictureReptile)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,6 +135,8 @@ namespace Палиндром
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox PictureReptile;
+        private System.Windows.Forms.PictureBox pictureCat;
     }
 }
 

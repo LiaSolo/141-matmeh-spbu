@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Палиндром
 {
-    public partial class Form1 : Form
+    public partial class PalindromForm : Form
     {
         string vvod;
-        public Form1()
+        public PalindromForm()
         {
             InitializeComponent();
         }
@@ -38,7 +38,7 @@ namespace Палиндром
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = IsPalendrom(vvod) ? "Это палиндром" : "Я так не думаю";
+            label1.Text = IsPalendrom(vvod) ? "Это палиндром" : "Ты чего(((( нет конечно";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -49,7 +49,76 @@ namespace Палиндром
 
         private void label1_Click(object sender, EventArgs e)
         {
-            //НЕНУЖНЫЙ ЛЕЙБЛ ЗАЧЕМ НАЖАЛ БЛИН CUM CUMCUMUCMUMCUM
+            //НЕНУЖНЫЙ ЛЕЙБЛ ЗАЧЕМ НАЖАЛ БЛИН CUM CUMCUMUCMUMCUM cumpot 
+            //пРИВЕТ ЛИЯ
+            //ПРИВЕТ АНДРЕЙ 
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void PictureReptile_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ТЫ ЧЕГО КЛИКАЕШЬ,    УКУСУ нЯм ^-^");
+        }
+
+        private void pictureCat_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("НЯ ^-^ Охаё оницян");
         }
     }
 }
